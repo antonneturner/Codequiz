@@ -1,34 +1,15 @@
-<title>setInterval() - JavaScript -dcode </title>
-<link rel="stylesheet" href="http://youtube.local/assets/dcode.css">
-<link rel="shortcut icon" href="http://youtube.local/assets/favicon.ico">
-
-<body>   
-    
-    <h1>setInterval() - JavaScript - dcode</h1>
-
-    <h2 id ="timer-text">0</h2>
-
-    <button id="btn-start">Start timer</button>
-
-    <script type="text/javascript">
-
-    const timerText= document.getElementById("timer-text");
-    const btnStart= document.getElementById("btn-start");
-
-
-        let count = 0;
-
-    
-    btnStart.addEventListener("click", function(){
-        setInterval(function()){
-        count += 1;.
-    timerText.textContent = count;
-
-    }, 1000);
-
-    });
-
-</script>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Count Down</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Seconds left:  <span id="time-left">10</span</h3>
+        <button id= "start-button">Start</button>
 </body>
+</html>
