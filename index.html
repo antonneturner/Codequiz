@@ -8,11 +8,25 @@
 
     <h2 id ="timer-text">0</h2>
 
-    <button>Start timer</button>
+    <button id="btn-start">Start timer</button>
 
     <script type="text/javascript">
 
     const timerText= document.getElementById("timer-text");
+    const btnStart= document.getElementById("btn-start");
+
+
+        let count = 0;
+
+    
+    btnStart.addEventListener("click", function(){
+        setInterval(function()){
+        count += 1;.
+    timerText.textContent = count;
+
+    }, 1000);
+
+    });
 
 </script>
 
