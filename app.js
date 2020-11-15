@@ -116,9 +116,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if (shuffledQuestions.length > currentQuestionIndex + 1) {
             nextButton.classList.remove('hide')
         } else {
-            alert('gameover')
-            // startBtn.innerText = 'Restart'
 
+            var initials = prompt('enter your initials')
+            // startBtn.innerText = 'Restart'
+            console.log(initials)
         }
     }
 
